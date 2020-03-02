@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { User } from 'projects/gavant/src/lib/user/user';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gavant-ng-example-components';
+
+  user: User = {
+    id: 2,
+    firstName: 'Bill',
+    lastName: 'D.',
+    emailAddress: 'someone@example.com'
+  };
 }

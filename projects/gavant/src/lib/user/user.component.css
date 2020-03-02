@@ -1,0 +1,27 @@
+.user {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-img {
+  margin-right: 1rem;
+}
+
+.user-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+}
+
+.user-details h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.user-details p {
+  margin: 0;
+  color: #999;
+}
